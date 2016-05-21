@@ -1,11 +1,11 @@
 # Basic
-title: Vno Jekyll
-subtitle: A blog-orientation theme for Jekyll
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+title: TrueMen's World
+subtitle: 艰苦朴素，求真务实
+welcome_message: <a href="http://item.taobao.com/item.htm?spm=0.0.0.0.OQGuDR&id=523336738336" target="_blank">『砀山水果经营店』 - 老婆经营的苹果店，苹果新鲜、多汁爽脆、价格实惠，欢迎光临本店</a>
 description: Vno Jekyll is a port of my Ghost theme vno.
-creator: <a href="http://onev.cat">@onevcat</a>
+creator: <a href="http://weibo.com/u/2459242834">@_truemen</a>
 
-url: "http://vno.onevcat.com"
+url: "http://qmjie.github.io"
 
 permalink: /:year/:month/:title/
 
@@ -20,13 +20,13 @@ cover_color: red
 
 # The blog button should not be removed.
 blog_button:
-    title: Blog
-    description: Visit blog
+    title: 博客
+    description: 访问博客
 
 # Navigation buttons in the front page.
 nav:
     - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
+    - {title: 收藏, description: 收藏, url: 'http://qmjie.sinaapp.com/pocket/'}
 
 # Pagination
 gems: [jekyll-paginate]
@@ -35,18 +35,18 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: vno-jekyll
+    disqus: qmjie
     # duoshuo: 
     
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    weibo: itruemen
+    github: jieqiuming
+    # twitter: onevcat
+    # gplus: 107108267983477358170
+    mail: jieqiuming.2011@gmail.com
 
 # Google Analytics
 ga:
-    # id: your_ga_id
-    # host: your_host
+    id: UA-78108417-1
+    host: auto
