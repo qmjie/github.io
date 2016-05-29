@@ -30,7 +30,7 @@ date: 2014-11-02
 1. HTML中包含JavaScript，示例：
 
 
-    <script type="text/javascript">document.write("hello world!")</script>; // <script>标签紧密耦合
+    <script type="text/javascript">document.write("hello world!")</script> // <script>标签紧密耦合
     <input type="button" value="Click me " onclick="doSomething();"/> //事件属性值紧密耦合 
    
    
