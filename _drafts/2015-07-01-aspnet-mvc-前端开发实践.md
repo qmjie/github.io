@@ -1,3 +1,9 @@
+---
+layout: post
+title: aspnet mvc 前端开发实践
+date: 2015-07-01
+---
+
 ##二、参考链接
 1. [Best practice front-end architecture using Microsoft ASP.Net MVC and Rivets.js](http://blog.blackballsoftware.com/2014/05/28/best-practice-front-end-architecture-using-microsoft-asp-net-mvc-and-rivets-js/)
 
