@@ -91,11 +91,9 @@ Redis在应用程序能否起作用以及作用多大，取决于应用程序的
     }
 
     
-    Properly defining your data model will help you use Redis in an efficient way. 
-    Redis stores values as byte blobs internally and *ServiceStack.Redis* will serialize the whole object graph for us. 
-    Thus it is important that we define aggregate boundaries. 
-    As you can see Address is a *value object* and will be persisted and retrieved as a part of Customer *aggregate*, 
-    while *Orders* property is a list of ids.
+
+Properly defining your data model will help you use Redis in an efficient way. Redis stores values as byte blobs internally and *ServiceStack.Redis* will serialize the whole object graph for us. Thus it is important that we define aggregate boundaries.As you can see Address is a *value object* and will be persisted and retrieved as a part of Customer *aggregate*,while *Orders* property is a list of ids.
+
     
     
     public class Order
