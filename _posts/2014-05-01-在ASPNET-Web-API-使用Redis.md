@@ -1,6 +1,6 @@
 ---
 layout: post
-title:在ASPNET-Web-API中使用Redis
+title: 在ASPNET-Web-API中使用Redis
 category: dotnet
 tags: Redis,ASPNET
 date: 2014-05-01
