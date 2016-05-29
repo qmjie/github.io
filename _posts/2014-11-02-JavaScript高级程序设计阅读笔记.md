@@ -29,12 +29,12 @@ date: 2014-11-02
 #### 解耦HTML/JavaScript
 1. HTML中包含JavaScript，示例：
 
-```Html
-// <script>标签紧密耦合
-<script type="text/javascript">document.write("hello world!")</script> 
-// 事件属性值紧密耦合
-<input type="button" value="Click me " onclick="doSomething();"/>  
-```    
+   ```Html
+   // <script>标签紧密耦合
+   <script type="text/javascript">document.write("hello world!")</script> 
+   // 事件属性值紧密耦合
+   <input type="button" value="Click me " onclick="doSomething();"/>  
+   ```    
    
 2. 理想情况：HTML和JavaScript应该完全分离，并通过外部文件和使用DOM附加行为来包含JavaScript。
 问题：出现JavaScript错误就要判断是在HTML中还是在JavaScript中，且在doSomething()可用之前就按下button，也会引发JavaScript错误。
